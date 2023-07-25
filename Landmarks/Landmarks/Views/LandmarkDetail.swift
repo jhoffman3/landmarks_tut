@@ -49,3 +49,9 @@ struct LandmarkDetail_Previews: PreviewProvider {
         LandmarkDetail(landmark: landmarks[0])
     }
 }
+
+struct Previews_LandmarkDetail_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+    }
+}
